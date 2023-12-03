@@ -1,0 +1,8 @@
+image:
+  repository: todo-backend
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 8880
